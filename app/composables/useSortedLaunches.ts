@@ -1,7 +1,6 @@
 import type { ComputedRef, Ref } from 'vue'
 import { computed } from 'vue'
 
-
 interface Launch {
 	id: string
 	mission_name: string
