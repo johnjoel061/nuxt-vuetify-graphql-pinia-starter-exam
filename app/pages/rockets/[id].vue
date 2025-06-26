@@ -96,6 +96,7 @@ const query = gql`
 	}
 `
 
+
 const { data } = useAsyncQuery(query, { id: rocketId })
 const rocket = computed(() => data.value?.rocket)
 
