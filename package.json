@@ -41,8 +41,11 @@
 	"dependencies": {
 		"@mdi/font": "^7.2.96",
 		"@pinia/nuxt": "^0.5.1",
+		"graphql": "^16.11.0",
+		"pinia": "^3.0.3",
 		"sass": "^1.68.0",
-		"vuetify": "^3.3.23"
+		"vue-toastification": "^2.0.0-rc.5",
+		"vuetify": "^3.8.11"
 	},
 	"version": "3.0.0"
 }
