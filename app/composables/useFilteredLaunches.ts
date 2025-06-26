@@ -1,7 +1,6 @@
 import type { Ref } from 'vue'
 import { computed } from 'vue'
 
-
 export function useFilteredLaunches(launches: Ref<any[]>, selectedYear: Ref<string | null>) {
 	const filteredLaunches = computed(() => {
 		if (!selectedYear.value) return launches.value
