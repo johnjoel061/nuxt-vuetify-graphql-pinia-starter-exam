@@ -96,7 +96,6 @@ const query = gql`
 	}
 `
 
-
 const { data } = useAsyncQuery(query)
 const launches = computed(() => data.value?.launchesPast ?? [])
 
@@ -117,7 +116,6 @@ function formatDate(dateStr: string) {
 		day: 'numeric',
 	})
 }
-
 
 // Favorites logic
 const favoritesStore = useFavoritesStore()
